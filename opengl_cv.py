@@ -40,7 +40,7 @@ def idle():
     _,image = capture.read()
 
 
-    cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
+    image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
     #you must convert the image to array for glTexImage2D to work
     #maybe there is a faster way that I don't know about yet...
 
@@ -56,7 +56,6 @@ def idle():
                  GL_RGB,
                  GL_UNSIGNED_BYTE,
                  image)
-    # cv2.imshow('frame',image)
     glutPostRedisplay()
 
 def display():

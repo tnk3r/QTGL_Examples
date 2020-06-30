@@ -1,6 +1,8 @@
 # QTGL_Examples
 
 Collection of Examples and Sources when possible.
+Some working, others are not
+
 
 Ed Langley Demo 
 https://www.youtube.com/watch?v=HJAvuDFREco
@@ -12,3 +14,4 @@ https://stackoverflow.com/questions/38403443/opengl-python-applying-an-stmap-uvm
 Older demos:
 
 https://cyrille.rossant.net/shaders-opengl/
+
